@@ -8,7 +8,6 @@ def health_check():
 
 @app.post("/predict")
 def predict(data: dict):
-    # Prosta atrapa (mock) odpowiedzi modelu ML
     return {
         "status": "success",
         "version":"2.0",
